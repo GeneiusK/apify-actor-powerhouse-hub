@@ -34,6 +34,34 @@
       <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI visibility weekly brief blueprint JSON</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json</guid>
+      <description>Public JSON template for weekly AI visibility monitoring jobs with relative Store handoff paths.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Review intelligence action queue blueprint JSON</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json</guid>
+      <description>Public JSON template for turning review exports into response queues, proof quotes, and battlecards.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Supplier shortlist triage blueprint JSON</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json</guid>
+      <description>Public JSON template for ranking supplier records into sourcing shortlists and next actions.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Job-board account signals blueprint JSON</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json</guid>
+      <description>Public JSON template for turning public hiring records into account-priority signals.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GEO Client Reporting Workflow</title>
       <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html</link>
       <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html</guid>

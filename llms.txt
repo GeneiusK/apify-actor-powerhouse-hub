@@ -31,6 +31,13 @@
 - [Capterra review battlecard demo](https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-demo.html): First-run path for Capterra competitor review battlecards.
 - [Capterra battlecard proof GIF](https://geneiusk.github.io/apify-actor-powerhouse-hub/assets/capterra-review-battlecard-proof.gif): Visual proof path from Capterra reviews to battlecard row.
 
+## Workflow Blueprint Files
+
+- [AI visibility weekly brief blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json): Public JSON template for weekly AI visibility monitoring jobs with relative Store handoff paths.
+- [Review intelligence action queue blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json): Public JSON template for turning review exports into response queues, proof quotes, and battlecards.
+- [Supplier shortlist triage blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json): Public JSON template for ranking supplier records into sourcing shortlists and next actions.
+- [Job-board account signals blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json): Public JSON template for turning public hiring records into account-priority signals.
+
 ## Use Cases
 
 - [GEO Client Reporting Workflow](https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html): A first-run workflow for SEO and GEO agencies that need repeatable AI visibility scorecards, competitor mentions, and client-ready reporting.

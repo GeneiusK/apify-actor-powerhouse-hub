@@ -33,6 +33,34 @@
     },
     {
       "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json",
+      "summary": "Public JSON template for weekly AI visibility monitoring jobs with relative Store handoff paths.",
+      "title": "AI visibility weekly brief blueprint JSON",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json",
+      "summary": "Public JSON template for turning review exports into response queues, proof quotes, and battlecards.",
+      "title": "Review intelligence action queue blueprint JSON",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json",
+      "summary": "Public JSON template for ranking supplier records into sourcing shortlists and next actions.",
+      "title": "Supplier shortlist triage blueprint JSON",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json",
+      "summary": "Public JSON template for turning public hiring records into account-priority signals.",
+      "title": "Job-board account signals blueprint JSON",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
       "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html",
       "summary": "A first-run workflow for SEO and GEO agencies that need repeatable AI visibility scorecards, competitor mentions, and client-ready reporting.",
       "title": "GEO Client Reporting Workflow",
