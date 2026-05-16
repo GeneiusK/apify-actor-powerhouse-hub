@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A 60-second first-run demo script for turning supplier records into sourcing scores and actions.">
+  <link rel="canonical" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Supplier Intelligence Demo">
+  <meta property="og:description" content="A 60-second first-run demo script for turning supplier records into sourcing scores and actions.">
+  <meta property="og:url" content="https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Supplier Intelligence Demo">
+  <meta name="twitter:description" content="A 60-second first-run demo script for turning supplier records into sourcing scores and actions.">
+  <title>Supplier Intelligence Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Apify Actor Powerhouse RSS" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Apify Actor Powerhouse JSON Feed" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "description": "A 60-second first-run demo script for turning supplier records into sourcing scores and actions.", "name": "Supplier Intelligence Demo", "publisher": {"@type": "Organization", "name": "Apify Actor Powerhouse"}, "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/", "name": "Apify Actor Powerhouse", "position": 1}, {"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html", "name": "Supplier Intelligence Demo", "position": 2}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Apify Actor Powerhouse</a>
+    <nav><a class="" href="index.html">Hub</a>
+<a class="" href="use-cases.html">Use cases</a>
+<a class="" href="workflow-blueprints.html">Blueprints</a>
+<a class="" href="feedback.html">Feedback</a>
+<a class="" href="ai-visibility.html">AI visibility</a>
+<a class="" href="review-intelligence.html">Review intelligence</a>
+<a class="" href="google-maps-review-tutorial.html">Google Maps tutorial</a>
+<a class="" href="trustpilot-review-tutorial.html">Trustpilot tutorial</a>
+<a class="" href="amazon-review-tutorial.html">Amazon tutorial</a></nav>
+  </header>
+<main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">60-second supplier demo / 2026-05-16</div>
+          <h1>Turn supplier records into a sourcing shortlist.</h1>
+          <p>Use two sample supplier profiles to show capability tags, risk score, opportunity score, and the next sourcing action.</p>
+          <div class="actions">
+            <a class="button primary" href="go/supplier-intelligence-monitor.html">Run the supplier sample</a>
+            <a class="button" href="assets/supplier-intelligence-proof.gif">Proof GIF</a>
+          </div>
+        </div>
+        <aside class="visual-plane reveal">
+          <div class="icon-row"><img src="assets/supplier-intelligence-monitor.png" alt="supplier-intelligence-monitor icon"></div>
+          <div class="metric"><span>Demo input</span><span>2 suppliers</span></div>
+          <div class="metric"><span>Output</span><span>Sourcing scores</span></div>
+          <div class="metric"><span>Buyer</span><span>Procurement</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Demo script</div>
+        <h2>Show the shortlist decision in under a minute.</h2>
+        <p>The sample compares one strong electronics supplier against one record that needs more verification before outreach.</p>
+      </div>
+      <div class="workflow-list">
+        <div class="workflow-item"><span class="step">1</span><div><h3>Paste two records</h3><p>Use the sample supplier names, descriptions, shipment counts, countries, and certification signals.</p></div></div>
+        <div class="workflow-item"><span class="step">2</span><div><h3>Run the analysis</h3><p>Confirm each row returns capability tags, risk score, opportunity score, and a recommended action.</p></div></div>
+        <div class="workflow-item"><span class="step">3</span><div><h3>Route the shortlist</h3><p>Send high-opportunity suppliers to sourcing outreach and higher-risk suppliers to verification.</p></div></div>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Proof asset</div>
+        <h2>Show supplier records becoming a shortlist.</h2>
+        <p>This short GIF previews the sample input, scoring fields, recommended actions, and recurring sourcing watchlist path before a buyer opens the Store page.</p>
+      </div>
+      <img class="proof-media" src="assets/supplier-intelligence-proof.gif" alt="Animated proof of supplier records becoming a sourcing shortlist">
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run input</div>
+        <h2>A tiny sample for quick proof.</h2>
+        <p>Paste this shape into the Store input before wiring a supplier-directory export or shipment dataset.</p>
+      </div>
+      <pre class="code-block"><code>{
+  &quot;defaultCategory&quot;: &quot;electronics&quot;,
+  &quot;suppliers&quot;: [
+    {
+      &quot;supplierName&quot;: &quot;Pacific Components&quot;,
+      &quot;description&quot;: &quot;ISO certified electronics manufacturer with export shipments and custom assembly capacity.&quot;,
+      &quot;shipmentCount&quot;: 120,
+      &quot;country&quot;: &quot;Taiwan&quot;,
+      &quot;certifications&quot;: [
+        &quot;ISO 9001&quot;
+      ]
+    },
+    {
+      &quot;supplierName&quot;: &quot;Harbor Plastics&quot;,
+      &quot;description&quot;: &quot;Low-volume injection molding shop with consumer packaging work and limited export references.&quot;,
+      &quot;shipmentCount&quot;: 14,
+      &quot;country&quot;: &quot;Vietnam&quot;,
+      &quot;rating&quot;: 4.1
+    }
+  ],
+  &quot;maxSuppliers&quot;: 2
+}</code></pre>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Expected signal</div>
+        <h2>What the buyer should inspect.</h2>
+        <p>This public-safe output snapshot shows the fields that turn raw supplier data into an action queue.</p>
+      </div>
+      <pre class="code-block"><code>[
+  {
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;recordIndex&quot;: 1,
+    &quot;billingEventName&quot;: &quot;supplier-profile-analyzed&quot;,
+    &quot;supplierName&quot;: &quot;Pacific Components&quot;,
+    &quot;category&quot;: &quot;electronics&quot;,
+    &quot;country&quot;: &quot;Taiwan&quot;,
+    &quot;shipmentCount&quot;: 120,
+    &quot;capabilities&quot;: [
+      &quot;manufacturing&quot;,
+      &quot;export&quot;,
+      &quot;certification&quot;,
+      &quot;industrial&quot;
+    ],
+    &quot;riskScore&quot;: 20,
+    &quot;opportunityScore&quot;: 100,
+    &quot;recommendedAction&quot;: &quot;Prioritize Pacific Components for sourcing research; capabilities suggest a strong fit: manufacturing, export, certification.&quot;
+  },
+  {
+    &quot;status&quot;: &quot;succeeded&quot;,
+    &quot;recordIndex&quot;: 2,
+    &quot;billingEventName&quot;: &quot;supplier-profile-analyzed&quot;,
+    &quot;supplierName&quot;: &quot;Harbor Plastics&quot;,
+    &quot;category&quot;: &quot;electronics&quot;,
+    &quot;country&quot;: &quot;Vietnam&quot;,
+    &quot;shipmentCount&quot;: 14,
+    &quot;capabilities&quot;: [
+      &quot;manufacturing&quot;
+    ],
+    &quot;riskScore&quot;: 45,
+    &quot;opportunityScore&quot;: 58,
+    &quot;recommendedAction&quot;: &quot;Review Harbor Plastics for fit, but verify export references before outreach.&quot;
+  }
+]</code></pre>
+    </section>
+  </main>
+
+</body>
+</html>

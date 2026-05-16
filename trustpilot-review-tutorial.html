@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A first-run tutorial for turning Trustpilot review samples into response queues, proof quotes, and reputation actions.">
+  <link rel="canonical" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trustpilot Review Tutorial">
+  <meta property="og:description" content="A first-run tutorial for turning Trustpilot review samples into response queues, proof quotes, and reputation actions.">
+  <meta property="og:url" content="https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Trustpilot Review Tutorial">
+  <meta name="twitter:description" content="A first-run tutorial for turning Trustpilot review samples into response queues, proof quotes, and reputation actions.">
+  <title>Trustpilot Review Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Apify Actor Powerhouse RSS" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Apify Actor Powerhouse JSON Feed" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "description": "A first-run tutorial for turning Trustpilot review samples into response queues, proof quotes, and reputation actions.", "name": "Trustpilot Review Tutorial", "publisher": {"@type": "Organization", "name": "Apify Actor Powerhouse"}, "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/", "name": "Apify Actor Powerhouse", "position": 1}, {"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html", "name": "Trustpilot Review Tutorial", "position": 2}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Apify Actor Powerhouse</a>
+    <nav><a class="" href="index.html">Hub</a>
+<a class="" href="use-cases.html">Use cases</a>
+<a class="" href="workflow-blueprints.html">Blueprints</a>
+<a class="" href="feedback.html">Feedback</a>
+<a class="" href="ai-visibility.html">AI visibility</a>
+<a class="" href="review-intelligence.html">Review intelligence</a>
+<a class="" href="google-maps-review-tutorial.html">Google Maps tutorial</a>
+<a class="active" href="trustpilot-review-tutorial.html">Trustpilot tutorial</a>
+<a class="" href="amazon-review-tutorial.html">Amazon tutorial</a></nav>
+  </header>
+<main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">Trustpilot review tutorial / 2026-05-16</div>
+          <h1>Turn two Trustpilot reviews into a reputation queue.</h1>
+          <p>Use the Trustpilot analyzer to convert raw reviews into refund/support urgency, proof quotes, response drafts, and weekly reputation actions.</p>
+          <div class="actions">
+            <a class="button primary" href="go/trustpilot-review-intelligence-monitor.html">Run the sample</a>
+            <a class="button" href="review-intelligence.html">Review workflow</a>
+          </div>
+        </div>
+        <aside class="visual-plane reveal">
+          <div class="icon-row"><img src="assets/trustpilot-review-intelligence-monitor.png" alt="trustpilot-review-intelligence-monitor icon"></div>
+          <div class="metric"><span>Sample size</span><span>2 reviews</span></div>
+          <div class="metric"><span>Output</span><span>Reputation queue</span></div>
+          <div class="metric"><span>Workflow</span><span>Trustpilot</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run sample</div>
+        <h2>Start with Northstar Software.</h2>
+        <p>The sample has one urgent support/refund complaint and one positive review, enough to show both escalation and proof-quote paths.</p>
+      </div>
+      <div class="workflow-list">
+        <div class="workflow-item"><span class="step">1</span><div><h3>Paste or load reviews</h3><p>Use inline reviews for the first test, then switch to a scraper dataset ID when the workflow is clear.</p></div></div>
+        <div class="workflow-item"><span class="step">2</span><div><h3>Review action fields</h3><p>Inspect sentiment, complaint themes, urgency score, priority reason, proof quote, and owner-response draft.</p></div></div>
+        <div class="workflow-item"><span class="step">3</span><div><h3>Route the work</h3><p>Send urgent complaints to a response queue and save positive proof quotes for Trustpilot widgets, pages, ads, and reports.</p></div></div>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run input</div>
+        <h2>A tiny sample for quick proof.</h2>
+        <p>Use this shape to verify the Trustpilot reputation path before wiring a live review feed.</p>
+      </div>
+      <pre class="code-block"><code>{
+  &quot;businessName&quot;: &quot;Northstar Software&quot;,
+  &quot;sourceName&quot;: &quot;Trustpilot&quot;,
+  &quot;reviews&quot;: [
+    {
+      &quot;rating&quot;: 1,
+      &quot;text&quot;: &quot;Support ignored my refund request after a delayed delivery, and the whole thing felt like a scam.&quot;,
+      &quot;authorName&quot;: &quot;Example Customer&quot;,
+      &quot;date&quot;: &quot;2026-05-01&quot;
+    },
+    {
+      &quot;rating&quot;: 5,
+      &quot;text&quot;: &quot;Excellent support, transparent pricing, and a smooth experience from checkout to delivery.&quot;,
+      &quot;authorName&quot;: &quot;Example Customer 2&quot;,
+      &quot;date&quot;: &quot;2026-05-02&quot;
+    }
+  ],
+  &quot;maxReviews&quot;: 2,
+  &quot;includeRawReview&quot;: true,
+  &quot;failOnInvalidRecord&quot;: false
+}</code></pre>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Proof asset</div>
+        <h2>Show reviews becoming a reputation queue.</h2>
+        <p>This short GIF previews the Trustpilot sample, urgency fields, proof quote, response draft, and weekly reputation handoff before a buyer opens the Store page.</p>
+      </div>
+      <img class="proof-media" src="assets/trustpilot-review-proof.gif" alt="Animated proof of Trustpilot reviews becoming a reputation queue">
+    </section>
+  </main>
+
+</body>
+</html>

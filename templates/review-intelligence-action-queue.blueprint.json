@@ -1,0 +1,39 @@
+{
+  "handoff": "Review the queue weekly before publishing response drafts or using proof quotes.",
+  "inputs": {
+    "businessName": "Northstar Dental",
+    "reviews": [
+      {
+        "rating": 2,
+        "source": "Google Maps",
+        "text": "Appointment started late and nobody explained the delay."
+      },
+      {
+        "rating": 5,
+        "source": "Google Maps",
+        "text": "The hygienist was gentle and explained every step clearly."
+      }
+    ]
+  },
+  "name": "Review intelligence action queue",
+  "schedule": "weekly",
+  "steps": [
+    {
+      "actor": "google-maps-review-intelligence-monitor",
+      "name": "Analyze source reviews",
+      "output": "Review rows with theme, sentiment, urgency, response draft, proof quote, and recommended action.",
+      "storePath": "go/google-maps-review-intelligence-monitor.html"
+    },
+    {
+      "actor": "local-review-intelligence-monitor",
+      "name": "Merge into local response queue",
+      "output": "Prioritized queue for response work, proof quotes, recurring themes, and client-report bullets.",
+      "storePath": "go/local-review-intelligence-monitor.html"
+    },
+    {
+      "name": "Route proof and risk",
+      "output": "Send urgent complaints to the response owner and positive proof quotes to local pages or client reporting."
+    }
+  ],
+  "version": 1
+}

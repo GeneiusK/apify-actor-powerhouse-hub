@@ -1,0 +1,45 @@
+name: Hiring signals workflow request
+description: Public request for a safer sample run, setup clarification, or workflow variant.
+title: "[Hiring signals] "
+labels:
+  - public-feedback
+  - campaign-public-hiring-signal-demo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing a workflow request. This issue is public. Do not include credentials, cookies, private URLs, customer records, emails, phone numbers, or sensitive business data.
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request type
+      options:
+        - Need a safer sample input
+        - First run was unclear
+        - Need a workflow variant
+        - Pricing or output question
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: Describe the public-safe workflow you want this Actor family to support.
+      placeholder: Weekly report, action queue, shortlist, battlecard, or monitoring job.
+    validations:
+      required: true
+  - type: textarea
+    id: first-run-friction
+    attributes:
+      label: First-run friction
+      description: What made the sample, setup, output, or handoff unclear?
+      placeholder: Keep examples public-safe and omit private records.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-safety
+    attributes:
+      label: Public-safety check
+      options:
+        - label: I did not include credentials, private data, customer records, personal contact details, or private links.
+          required: true

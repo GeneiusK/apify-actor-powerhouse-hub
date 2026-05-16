@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A 60-second first-run demo script for turning G2 competitor reviews into battlecard bullets.">
+  <link rel="canonical" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="G2 Review Battlecard Demo">
+  <meta property="og:description" content="A 60-second first-run demo script for turning G2 competitor reviews into battlecard bullets.">
+  <meta property="og:url" content="https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="G2 Review Battlecard Demo">
+  <meta name="twitter:description" content="A 60-second first-run demo script for turning G2 competitor reviews into battlecard bullets.">
+  <title>G2 Review Battlecard Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Apify Actor Powerhouse RSS" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Apify Actor Powerhouse JSON Feed" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "description": "A 60-second first-run demo script for turning G2 competitor reviews into battlecard bullets.", "name": "G2 Review Battlecard Demo", "publisher": {"@type": "Organization", "name": "Apify Actor Powerhouse"}, "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/", "name": "Apify Actor Powerhouse", "position": 1}, {"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html", "name": "G2 Review Battlecard Demo", "position": 2}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Apify Actor Powerhouse</a>
+    <nav><a class="" href="index.html">Hub</a>
+<a class="" href="use-cases.html">Use cases</a>
+<a class="" href="workflow-blueprints.html">Blueprints</a>
+<a class="" href="feedback.html">Feedback</a>
+<a class="" href="ai-visibility.html">AI visibility</a>
+<a class="" href="review-intelligence.html">Review intelligence</a>
+<a class="" href="google-maps-review-tutorial.html">Google Maps tutorial</a>
+<a class="" href="trustpilot-review-tutorial.html">Trustpilot tutorial</a>
+<a class="" href="amazon-review-tutorial.html">Amazon tutorial</a></nav>
+  </header>
+<main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">60-second demo / 2026-05-16</div>
+          <h1>Turn G2 reviews into sales battlecard bullets.</h1>
+          <p>Use a tiny competitor-review sample to show complaint themes, objections, proof quotes, and next sales-enablement actions.</p>
+          <div class="actions">
+            <a class="button primary" href="go/g2-review-battlecard-monitor.html">Run the G2 sample</a>
+            <a class="button" href="review-intelligence.html">Review workflow</a>
+            <a class="button" href="assets/g2-review-battlecard-proof.gif">Proof GIF</a>
+          </div>
+        </div>
+        <aside class="visual-plane reveal">
+          <div class="icon-row"><img src="assets/g2-review-battlecard-monitor.png" alt="g2-review-battlecard-monitor icon"></div>
+          <div class="metric"><span>Demo input</span><span>2 reviews</span></div>
+          <div class="metric"><span>Source</span><span>G2</span></div>
+          <div class="metric"><span>Output</span><span>Battlecard</span></div>
+          <div class="metric"><span>Buyer</span><span>Product marketing</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Demo script</div>
+        <h2>Ground the battlecard in buyer language.</h2>
+        <p>The sample shows one negative review for objection mining and one positive review for proof language.</p>
+      </div>
+      <div class="workflow-list">
+        <div class="workflow-item"><span class="step">1</span><div><h3>Paste competitor reviews</h3><p>Start with two reviews before connecting a recurring scraper dataset.</p></div></div>
+        <div class="workflow-item"><span class="step">2</span><div><h3>Analyze themes</h3><p>Inspect complaint themes, sales objections, proof quotes, and battlecard summary fields.</p></div></div>
+        <div class="workflow-item"><span class="step">3</span><div><h3>Update enablement</h3><p>Send the strongest objections and quotes into the sales battlecard or weekly PMM update.</p></div></div>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run input</div>
+        <h2>A tiny sample for quick proof.</h2>
+        <p>Use this shape to verify the battlecard path before wiring a live G2 review feed.</p>
+      </div>
+      <pre class="code-block"><code>{
+  &quot;productName&quot;: &quot;Northstar CRM&quot;,
+  &quot;competitorName&quot;: &quot;Acme CRM&quot;,
+  &quot;reviews&quot;: [
+    {
+      &quot;rating&quot;: 2,
+      &quot;title&quot;: &quot;Reporting is hard to trust&quot;,
+      &quot;text&quot;: &quot;The dashboards look good, but our sales ops team spends too much time checking whether pipeline numbers are current.&quot;,
+      &quot;reviewDate&quot;: &quot;2026-05-01&quot;
+    },
+    {
+      &quot;rating&quot;: 5,
+      &quot;title&quot;: &quot;Easy for reps to adopt&quot;,
+      &quot;text&quot;: &quot;Our account executives liked the clean workflow and needed almost no training before logging customer notes.&quot;,
+      &quot;reviewDate&quot;: &quot;2026-05-04&quot;
+    }
+  ]
+}</code></pre>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Proof asset</div>
+        <h2>Show reviews becoming a battlecard row.</h2>
+        <p>This short GIF previews the G2 sample, theme extraction, objection row, and product-marketing handoff before a buyer opens the Store page.</p>
+      </div>
+      <img class="proof-media" src="assets/g2-review-battlecard-proof.gif" alt="Animated proof of G2 reviews becoming a sales battlecard row">
+    </section>
+
+  </main>
+
+</body>
+</html>

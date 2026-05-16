@@ -1,0 +1,39 @@
+{
+  "handoff": "Review the shortlist before contacting suppliers or moving any vendor into procurement.",
+  "inputs": {
+    "defaultCategory": "electronics",
+    "suppliers": [
+      {
+        "country": "Taiwan",
+        "description": "ISO certified electronics manufacturer with export shipments and custom assembly capacity.",
+        "shipmentCount": 120,
+        "supplierName": "Pacific Components"
+      },
+      {
+        "country": "Vietnam",
+        "description": "Low-volume injection molding shop with limited export references.",
+        "shipmentCount": 14,
+        "supplierName": "Harbor Plastics"
+      }
+    ]
+  },
+  "name": "Supplier shortlist triage",
+  "schedule": "weekly",
+  "steps": [
+    {
+      "actor": "supplier-intelligence-monitor",
+      "name": "Analyze supplier records",
+      "output": "Supplier rows with capability tags, country signals, risk score, opportunity score, and recommended sourcing action.",
+      "storePath": "go/supplier-intelligence-monitor.html"
+    },
+    {
+      "name": "Split by sourcing action",
+      "output": "High-opportunity suppliers move to sourcing follow-up; high-risk suppliers move to verification."
+    },
+    {
+      "name": "Refresh the shortlist",
+      "output": "Append the best candidates to a weekly sourcing review queue with reason, risk, and next action."
+    }
+  ],
+  "version": 1
+}

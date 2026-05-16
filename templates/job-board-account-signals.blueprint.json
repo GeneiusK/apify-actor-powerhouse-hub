@@ -1,0 +1,39 @@
+{
+  "handoff": "Review account signals before any sales follow-up; do not infer intent from a single job post.",
+  "inputs": {
+    "defaultCompany": "Northstar CRM",
+    "jobs": [
+      {
+        "companyName": "Northstar CRM",
+        "description": "Help us scale revenue in a new region and build pipeline with mid-market SaaS buyers.",
+        "location": "Remote - US",
+        "title": "Senior Account Executive"
+      },
+      {
+        "companyName": "Northstar CRM",
+        "description": "Own channel partnerships, agency alliances, and co-selling motions for a fast-growing CRM platform.",
+        "location": "Austin, TX",
+        "title": "Director of Partnerships"
+      }
+    ]
+  },
+  "name": "Job board account signals",
+  "schedule": "weekly",
+  "steps": [
+    {
+      "actor": "public-hiring-signal-monitor",
+      "name": "Analyze public job posts",
+      "output": "Job rows with department, seniority, signal type, priority score, remote hint, and account action.",
+      "storePath": "go/public-hiring-signal-monitor.html"
+    },
+    {
+      "name": "Route account signals",
+      "output": "Expansion and GTM investment signals move to CRM, Slack, spreadsheet, or ABM research queue."
+    },
+    {
+      "name": "Refresh target accounts",
+      "output": "Update the weekly account-priority list with the strongest hiring signals and rationale."
+    }
+  ],
+  "version": 1
+}

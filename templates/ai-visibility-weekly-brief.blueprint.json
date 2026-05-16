@@ -1,0 +1,37 @@
+{
+  "handoff": "Attach REPORT.md to a weekly client update or internal GEO work queue.",
+  "inputs": {
+    "brandName": "Northstar CRM",
+    "brandWebsite": "https://www.northstar-crm.example",
+    "buyerPrompts": [
+      "best CRM for product-led sales teams",
+      "HubSpot alternatives for mid-market SaaS"
+    ],
+    "competitors": [
+      "Acme CRM",
+      "BrightDesk CRM",
+      "Pipeline Pilot"
+    ]
+  },
+  "name": "AI visibility weekly brief",
+  "schedule": "weekly",
+  "steps": [
+    {
+      "actor": "ai-brand-visibility-monitor",
+      "name": "Run brand visibility checks",
+      "output": "Visibility check dataset with brand mentions, competitor mentions, citations, score, and recommendation.",
+      "storePath": "go/ai-brand-visibility-monitor.html"
+    },
+    {
+      "actor": "ai-visibility-report-generator",
+      "name": "Generate client report",
+      "output": "REPORT.md summary with scorecard, competitor table, priority gaps, and next actions.",
+      "storePath": "go/ai-visibility-report-generator.html"
+    },
+    {
+      "name": "Route publishing actions",
+      "output": "Send low-score prompts to comparison, citation, or buyer-intent content work."
+    }
+  ],
+  "version": 1
+}

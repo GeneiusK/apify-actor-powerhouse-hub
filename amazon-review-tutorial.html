@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A first-run tutorial for turning Amazon review samples into listing actions, operations follow-ups, and marketplace proof quotes.">
+  <link rel="canonical" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amazon Review Tutorial">
+  <meta property="og:description" content="A first-run tutorial for turning Amazon review samples into listing actions, operations follow-ups, and marketplace proof quotes.">
+  <meta property="og:url" content="https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Amazon Review Tutorial">
+  <meta name="twitter:description" content="A first-run tutorial for turning Amazon review samples into listing actions, operations follow-ups, and marketplace proof quotes.">
+  <title>Amazon Review Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Apify Actor Powerhouse RSS" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Apify Actor Powerhouse JSON Feed" href="https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "description": "A first-run tutorial for turning Amazon review samples into listing actions, operations follow-ups, and marketplace proof quotes.", "name": "Amazon Review Tutorial", "publisher": {"@type": "Organization", "name": "Apify Actor Powerhouse"}, "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/", "name": "Apify Actor Powerhouse", "position": 1}, {"@type": "ListItem", "item": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html", "name": "Amazon Review Tutorial", "position": 2}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Apify Actor Powerhouse</a>
+    <nav><a class="" href="index.html">Hub</a>
+<a class="" href="use-cases.html">Use cases</a>
+<a class="" href="workflow-blueprints.html">Blueprints</a>
+<a class="" href="feedback.html">Feedback</a>
+<a class="" href="ai-visibility.html">AI visibility</a>
+<a class="" href="review-intelligence.html">Review intelligence</a>
+<a class="" href="google-maps-review-tutorial.html">Google Maps tutorial</a>
+<a class="" href="trustpilot-review-tutorial.html">Trustpilot tutorial</a>
+<a class="active" href="amazon-review-tutorial.html">Amazon tutorial</a></nav>
+  </header>
+<main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">Amazon review tutorial / 2026-05-16</div>
+          <h1>Turn two Amazon reviews into a marketplace action queue.</h1>
+          <p>Use the Amazon analyzer to convert raw reviews into product-quality fixes, listing actions, seller-response tasks, and proof quotes.</p>
+          <div class="actions">
+            <a class="button primary" href="go/amazon-review-intelligence-monitor.html">Run the sample</a>
+            <a class="button" href="review-intelligence.html">Review workflow</a>
+          </div>
+        </div>
+        <aside class="visual-plane reveal">
+          <div class="icon-row"><img src="assets/amazon-review-intelligence-monitor.png" alt="amazon-review-intelligence-monitor icon"></div>
+          <div class="metric"><span>Sample size</span><span>2 reviews</span></div>
+          <div class="metric"><span>Output</span><span>Action queue</span></div>
+          <div class="metric"><span>Workflow</span><span>Marketplace</span></div>
+        </aside>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run sample</div>
+        <h2>Start with Northstar Standing Desk.</h2>
+        <p>The sample has one urgent quality/support complaint and one positive review, enough to show both operations and listing-proof paths.</p>
+      </div>
+      <div class="workflow-list">
+        <div class="workflow-item"><span class="step">1</span><div><h3>Paste or load reviews</h3><p>Use inline reviews for the first test, then switch to a scraper dataset ID when the workflow is clear.</p></div></div>
+        <div class="workflow-item"><span class="step">2</span><div><h3>Review action fields</h3><p>Inspect sentiment, complaint themes, urgency score, listing action, operations action, proof quote, and recommended action.</p></div></div>
+        <div class="workflow-item"><span class="step">3</span><div><h3>Route the work</h3><p>Send urgent product issues to operations and save positive proof quotes for listings, ads, and reports.</p></div></div>
+      </div>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">First-run input</div>
+        <h2>A tiny sample for quick proof.</h2>
+        <p>Use this shape to verify the Amazon marketplace path before wiring a live review feed.</p>
+      </div>
+      <pre class="code-block"><code>{
+  &quot;productName&quot;: &quot;Northstar Standing Desk&quot;,
+  &quot;sourceName&quot;: &quot;Amazon&quot;,
+  &quot;reviews&quot;: [
+    {
+      &quot;rating&quot;: 1,
+      &quot;text&quot;: &quot;The desktop cracked after two weeks and the replacement process was confusing. Packaging looked damaged on arrival.&quot;,
+      &quot;authorName&quot;: &quot;Example Customer&quot;,
+      &quot;date&quot;: &quot;2026-05-01&quot;
+    },
+    {
+      &quot;rating&quot;: 5,
+      &quot;text&quot;: &quot;Sturdy desk, easy assembly, and the size fits my office perfectly.&quot;,
+      &quot;authorName&quot;: &quot;Example Customer 2&quot;,
+      &quot;date&quot;: &quot;2026-05-02&quot;
+    }
+  ],
+  &quot;maxReviews&quot;: 2,
+  &quot;includeRawReview&quot;: true,
+  &quot;failOnInvalidRecord&quot;: false
+}</code></pre>
+    </section>
+    <section class="section two-col">
+      <div>
+        <div class="eyebrow">Proof asset</div>
+        <h2>Show reviews becoming a marketplace action queue.</h2>
+        <p>This short GIF previews the Amazon sample, urgency fields, proof quote, seller-response draft, and weekly marketplace handoff before a buyer opens the Store page.</p>
+      </div>
+      <img class="proof-media" src="assets/amazon-review-proof.gif" alt="Animated proof of Amazon reviews becoming a marketplace action queue">
+    </section>
+  </main>
+
+</body>
+</html>

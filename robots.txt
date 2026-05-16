@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /go/
+Sitemap: https://geneiusk.github.io/apify-actor-powerhouse-hub/sitemap.xml

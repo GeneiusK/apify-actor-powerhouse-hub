@@ -1,0 +1,296 @@
+{
+  "description": "Public workflow hub updates for Apify Actor business workflows.",
+  "feed_url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json",
+  "home_page_url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/",
+  "items": [
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/",
+      "summary": "Public hub for AI visibility, review intelligence, supplier intelligence, and hiring-signal workflows.",
+      "title": "Business workflows from Apify Actors",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/use-cases.html",
+      "summary": "Search-focused entry points for recurring business workflows built on Apify Actors.",
+      "title": "Use cases by buyer job",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/use-cases.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html",
+      "summary": "Platform-neutral JSON blueprints for weekly AI visibility, review intelligence, supplier shortlist, and job-board account-signal jobs.",
+      "title": "Workflow blueprints",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/feedback.html",
+      "summary": "Public-safe issue forms for sample requests, first-run friction, and workflow variants.",
+      "title": "Workflow feedback",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/feedback.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html",
+      "summary": "A first-run workflow for SEO and GEO agencies that need repeatable AI visibility scorecards, competitor mentions, and client-ready reporting.",
+      "title": "GEO Client Reporting Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-answer-competitor-gap.html",
+      "summary": "A first-run workflow for B2B SaaS content teams and GEO agencies that need to turn competitor mentions in AI answers into specific publishing actions.",
+      "title": "AI Answer Competitor Gap Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-answer-competitor-gap.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-search-visibility-monitoring.html",
+      "summary": "A small Apify workflow for B2B SaaS marketing teams that need to monitor AI answer mentions, competitor presence, citation gaps, and publishing actions.",
+      "title": "AI Search Visibility Monitoring",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-search-visibility-monitoring.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-scraper-action-queue.html",
+      "summary": "A first-run workflow for teams already collecting public reviews with Apify scrapers and needing theme tags, response priorities, proof quotes, and owner-ready follow-up rows.",
+      "title": "Review Scraper Action Queue",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-scraper-action-queue.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/local-review-response-queue.html",
+      "summary": "A first-run workflow for local SEO agencies and reputation managers that need review themes, owner-response drafts, proof quotes, and client-report actions.",
+      "title": "Local Review Response Queue",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/local-review-response-queue.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/marketplace-review-actions.html",
+      "summary": "A first-run workflow for ecommerce teams and agencies that need to turn Amazon reviews into quality fixes, listing improvements, seller-response tasks, and proof quotes.",
+      "title": "Marketplace Review Action Queue",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/marketplace-review-actions.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/competitor-review-battlecards.html",
+      "summary": "A first-run workflow for product marketing and sales enablement teams that need competitor objections, proof quotes, switching-risk themes, and fresh battlecard rows.",
+      "title": "Competitor Review Battlecards",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/competitor-review-battlecards.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-proof-quote-mining.html",
+      "summary": "A first-run workflow for marketers and agencies that need to turn public reviews into reusable proof quotes, objection language, and weekly content actions.",
+      "title": "Review Proof Quote Mining",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-proof-quote-mining.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-shortlist-intelligence.html",
+      "summary": "A first-run workflow for sourcing teams that need to score supplier profiles, spot capability gaps, and decide which records deserve outreach or verification.",
+      "title": "Supplier Shortlist Intelligence",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-shortlist-intelligence.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/job-board-account-signals.html",
+      "summary": "A first-run workflow for sales and RevOps teams that need to turn public hiring data into account actions, department signals, seniority clues, and weekly CRM updates.",
+      "title": "Job Board Account Signals",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/job-board-account-signals.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-scraper-action-workflow.html",
+      "summary": "A buyer-facing workflow for teams that already collect Amazon reviews and need the next step: themes, urgency, proof quotes, and response or listing actions.",
+      "title": "Amazon Review Scraper to Action Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-scraper-action-workflow.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-scraper-response-workflow.html",
+      "summary": "A workflow page for local SEO and reputation teams that collect Google Maps reviews but still need prioritized responses, proof quotes, and client-report bullets.",
+      "title": "Google Maps Review Scraper Response Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-scraper-response-workflow.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-scraper-battlecard-workflow.html",
+      "summary": "A workflow page for product marketing and sales enablement teams that need review-backed objections, proof quotes, and talk tracks after a G2 export.",
+      "title": "G2 Review Scraper Battlecard Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-scraper-battlecard-workflow.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/indeed-job-scraper-account-signals.html",
+      "summary": "A workflow page for teams that monitor public job posts and need GTM actions: expansion signals, department investment, seniority, and account follow-up priority.",
+      "title": "Job Scraper to Account Signals Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/indeed-job-scraper-account-signals.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/alibaba-supplier-scraper-shortlist-workflow.html",
+      "summary": "A workflow page for procurement and sourcing teams that collect supplier records and need capability, risk, and opportunity scoring before outreach.",
+      "title": "Supplier Scraper to Shortlist Workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/alibaba-supplier-scraper-shortlist-workflow.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/ai-brand-visibility-monitor.html",
+      "summary": "AI visibility Actor for SEO agencies, GEO/AEO consultants, brand marketers, B2B SaaS marketing teams.",
+      "title": "AI Brand Visibility Monitor - GEO & AI Search Tracker",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/ai-brand-visibility-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/ai-visibility-report-generator.html",
+      "summary": "AI visibility Actor for Agencies, GEO/AEO consultants, client-facing marketing teams.",
+      "title": "AI Visibility Report Generator",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/ai-visibility-report-generator.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/google-maps-review-intelligence-monitor.html",
+      "summary": "Review intelligence Actor for Local SEO agencies, reputation managers, franchises, multi-location operators.",
+      "title": "Google Maps Review Intelligence Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/google-maps-review-intelligence-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/trustpilot-review-intelligence-monitor.html",
+      "summary": "Review intelligence Actor for Brand marketers, reputation managers, ecommerce operators, support leaders.",
+      "title": "Trustpilot Review Intelligence Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/trustpilot-review-intelligence-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/amazon-review-intelligence-monitor.html",
+      "summary": "Review intelligence Actor for Ecommerce sellers, marketplace operators, agencies, product teams.",
+      "title": "Amazon Review Intelligence Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/amazon-review-intelligence-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/g2-review-battlecard-monitor.html",
+      "summary": "Review intelligence Actor for Product marketing, sales enablement, competitive intelligence teams, RevOps.",
+      "title": "G2 Review Battlecard Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/g2-review-battlecard-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/capterra-review-battlecard-monitor.html",
+      "summary": "Review intelligence Actor for Product marketing, sales enablement, competitive intelligence teams, agencies.",
+      "title": "Capterra Review Battlecard Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/capterra-review-battlecard-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/local-review-intelligence-monitor.html",
+      "summary": "Review intelligence Actor for Local SEO agencies, reputation managers, franchises, multi-location operators.",
+      "title": "Local Review Intelligence Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/local-review-intelligence-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/b2b-competitor-review-battlecard-monitor.html",
+      "summary": "Review intelligence Actor for B2B SaaS product marketing, sales enablement, RevOps, agencies.",
+      "title": "B2B Competitor Review Battlecard Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/b2b-competitor-review-battlecard-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/supplier-intelligence-monitor.html",
+      "summary": "Supplier intelligence Actor for Procurement teams, importers, Amazon sellers, industrial sales teams, sourcing agencies.",
+      "title": "Supplier Intelligence Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/supplier-intelligence-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/public-hiring-signal-monitor.html",
+      "summary": "Hiring signals Actor for Sales teams, RevOps, recruiters, agencies, ABM teams.",
+      "title": "Public Hiring Signal Monitor",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/public-hiring-signal-monitor.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-generator-alternatives.html",
+      "summary": "Compare buyer workflow fit for AI visibility report generator tools.",
+      "title": "AI Visibility Report Generator alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-generator-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for G2 review battlecard tools.",
+      "title": "G2 Review Battlecard Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-review-battlecard-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for B2B competitor review battlecard tools.",
+      "title": "B2B Competitor Review Battlecard Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-review-battlecard-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-visibility-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for AI brand visibility monitor tools.",
+      "title": "AI Brand Visibility Monitor - GEO & AI Search Tracker alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-visibility-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-intelligence-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for Trustpilot review monitor tools.",
+      "title": "Trustpilot Review Intelligence Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-intelligence-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for public hiring signal tools.",
+      "title": "Public Hiring Signal Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/local-review-intelligence-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for local review intelligence tools.",
+      "title": "Local Review Intelligence Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/local-review-intelligence-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for supplier intelligence monitor tools.",
+      "title": "Supplier Intelligence Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for Capterra review battlecard tools.",
+      "title": "Capterra Review Battlecard Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-intelligence-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for Amazon review intelligence tools.",
+      "title": "Amazon Review Intelligence Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-intelligence-monitor-alternatives.html"
+    },
+    {
+      "date_published": "2026-05-16T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-intelligence-monitor-alternatives.html",
+      "summary": "Compare buyer workflow fit for Google Maps review intelligence tools.",
+      "title": "Google Maps Review Intelligence Monitor alternatives",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-intelligence-monitor-alternatives.html"
+    }
+  ],
+  "title": "Apify Actor Powerhouse",
+  "version": "https://jsonfeed.org/version/1.1"
+}
