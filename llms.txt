@@ -5,7 +5,7 @@
 ## Workflows
 
 - [Use cases by buyer job](https://geneiusk.github.io/apify-actor-powerhouse-hub/use-cases.html): Search-focused entry points for GEO reporting, AI search monitoring, review response queues, marketplace review actions, and competitor battlecards.
-- [Workflow blueprints](https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html): Platform-neutral JSON blueprints for weekly AI visibility, review intelligence, supplier shortlist, and job-board account-signal jobs.
+- [Workflow blueprints](https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html): Platform-neutral JSON blueprints for weekly AI visibility, review intelligence, supplier shortlist, job-board account-signal jobs, and a review-intelligence n8n starter.
 - [RSS feed](https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml) and [JSON feed](https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json): Public hub update feeds for workflow pages, Actor pages, and comparison guides.
 - [Workflow feedback](https://geneiusk.github.io/apify-actor-powerhouse-hub/feedback.html): Public channel for sample-run requests and first-run friction, routed by workflow family.
 - [AI visibility workflow](https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html): Monitor AI answer visibility, competitor mentions, citations, and report gaps.
@@ -35,6 +35,7 @@
 
 - [AI visibility weekly brief blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/ai-visibility-weekly-brief.blueprint.json): Public JSON template for weekly AI visibility monitoring jobs with relative Store handoff paths.
 - [Review intelligence action queue blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.blueprint.json): Public JSON template for turning review exports into response queues, proof quotes, and battlecards.
+- [Review intelligence n8n starter workflow JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.n8n.json): Public n8n-style starter for routing review analysis rows into response, proof, and battlecard queues.
 - [Supplier shortlist triage blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json): Public JSON template for ranking supplier records into sourcing shortlists and next actions.
 - [Job-board account signals blueprint JSON](https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/job-board-account-signals.blueprint.json): Public JSON template for turning public hiring records into account-priority signals.
 

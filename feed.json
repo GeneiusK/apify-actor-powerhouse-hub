@@ -47,6 +47,13 @@
     },
     {
       "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.n8n.json",
+      "summary": "Public n8n-style starter for routing review analysis rows into response, proof, and battlecard queues.",
+      "title": "Review intelligence n8n starter workflow JSON",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.n8n.json"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
       "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json",
       "summary": "Public JSON template for ranking supplier records into sourcing shortlists and next actions.",
       "title": "Supplier shortlist triage blueprint JSON",

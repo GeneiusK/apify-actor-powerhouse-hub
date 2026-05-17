@@ -48,6 +48,13 @@
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Review intelligence n8n starter workflow JSON</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.n8n.json</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/review-intelligence-action-queue.n8n.json</guid>
+      <description>Public n8n-style starter for routing review analysis rows into response, proof, and battlecard queues.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Supplier shortlist triage blueprint JSON</title>
       <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json</link>
       <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/templates/supplier-shortlist-triage.blueprint.json</guid>

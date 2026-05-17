@@ -1,0 +1,114 @@
+{
+  "connections": {
+    "run-review-analyzer": [
+      "shape-action-queue"
+    ],
+    "sample-reviews": [
+      "run-review-analyzer"
+    ],
+    "shape-action-queue": [
+      "handoff"
+    ],
+    "weekly-trigger": [
+      "sample-reviews"
+    ]
+  },
+  "format": "n8n-starter",
+  "handoff": "Review shaped rows weekly before publishing responses, proof quotes, or battlecard snippets.",
+  "name": "Review intelligence action queue - n8n starter",
+  "nodes": [
+    {
+      "id": "weekly-trigger",
+      "name": "Weekly trigger",
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ]
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger"
+    },
+    {
+      "id": "sample-reviews",
+      "name": "Public-safe sample reviews",
+      "parameters": {
+        "values": {
+          "businessName": "Northstar Dental",
+          "reviews": [
+            {
+              "rating": 2,
+              "source": "Google Maps",
+              "text": "Appointment started late and nobody explained the delay."
+            },
+            {
+              "rating": 5,
+              "source": "Google Maps",
+              "text": "The hygienist was gentle and explained every step clearly."
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.set"
+    },
+    {
+      "id": "run-review-analyzer",
+      "name": "Run review analyzer",
+      "parameters": {
+        "actor": "google-maps-review-intelligence-monitor",
+        "body": "Use the sample review rows first, then replace them with a compliant review export.",
+        "credential": "Connect your Apify credential in n8n before running.",
+        "method": "POST",
+        "storePath": "go/google-maps-review-intelligence-monitor.html"
+      },
+      "type": "n8n-nodes-base.httpRequest"
+    },
+    {
+      "id": "shape-action-queue",
+      "name": "Shape action queue",
+      "parameters": {
+        "outputFields": [
+          "source",
+          "rating",
+          "theme",
+          "sentiment",
+          "urgencyScore",
+          "recommendedAction",
+          "proofQuote",
+          "responseDraft"
+        ],
+        "routingRules": [
+          "Urgent complaint rows go to response owner.",
+          "Positive proofQuote rows go to testimonial or local-page review.",
+          "Competitor or switching-risk rows go to battlecard draft."
+        ]
+      },
+      "type": "n8n-nodes-base.code"
+    },
+    {
+      "id": "handoff",
+      "name": "Route queue",
+      "parameters": {
+        "destination": "Sheet, ticket queue, CRM note, or internal review board",
+        "guardrail": "Review rows before publishing responses, proof quotes, or battlecard copy."
+      },
+      "type": "n8n-nodes-base.noOp"
+    }
+  ],
+  "schedule": "weekly",
+  "setup": [
+    "Import as a starting point, then connect your own Apify credential inside n8n.",
+    "Keep customer review exports in your workspace; this public template uses placeholder rows only.",
+    "Route output rows to a response queue, proof-quote backlog, or battlecard draft before publishing anything externally."
+  ],
+  "storePaths": [
+    "go/google-maps-review-intelligence-monitor.html",
+    "go/local-review-intelligence-monitor.html"
+  ],
+  "version": 1
+}

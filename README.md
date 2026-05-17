@@ -6,7 +6,7 @@ Public workflow hub for Apify Actors that turn recurring business data into buye
 
 - [Workflow hub](https://geneiusk.github.io/apify-actor-powerhouse-hub/)
 - [Use cases by buyer job](https://geneiusk.github.io/apify-actor-powerhouse-hub/use-cases.html)
-- [Workflow blueprints](https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html) for AI visibility, review intelligence, supplier shortlist, and job-board account-signal jobs
+- [Workflow blueprints](https://geneiusk.github.io/apify-actor-powerhouse-hub/workflow-blueprints.html) for AI visibility, review intelligence, supplier shortlist, job-board account-signal jobs, and a review-intelligence n8n starter
 - [RSS feed](https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.xml) and [JSON feed](https://geneiusk.github.io/apify-actor-powerhouse-hub/feed.json) for public hub updates
 - [Workflow feedback](https://geneiusk.github.io/apify-actor-powerhouse-hub/feedback.html) for public sample-run requests and first-run friction
 - [AI visibility workflow](https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html)
