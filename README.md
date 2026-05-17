@@ -79,4 +79,4 @@ Public workflow hub for Apify Actors that turn recurring business data into buye
 - First-run examples that show what each Actor produces before a buyer opens the Store page.
 - Public workflow pages that connect related Actors into useful jobs instead of isolated scrapers.
 
-Generated: 2026-05-16
+Generated: 2026-05-17
