@@ -1,0 +1,24 @@
+{
+  "brandAliases": [
+    "Apify Actors"
+  ],
+  "brandName": "Apify",
+  "brandWebsite": "https://apify.com",
+  "competitors": [
+    "Bright Data",
+    "Oxylabs"
+  ],
+  "failOnProviderError": false,
+  "includeRawAnswer": true,
+  "maxAnswerTokens": 500,
+  "maxModels": 1,
+  "maxQueries": 2,
+  "modelIds": [
+    "openrouter/auto"
+  ],
+  "queries": [
+    "best web scraping platforms for developers",
+    "best tools to extract web data at scale"
+  ],
+  "temperaturePercent": 20
+}

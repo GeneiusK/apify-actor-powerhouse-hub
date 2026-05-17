@@ -1,0 +1,29 @@
+{
+  "defaultCompetitor": "Acme CRM",
+  "failOnInvalidRecord": false,
+  "includeRawReview": true,
+  "maxReviews": 2,
+  "productCategory": "CRM",
+  "reviews": [
+    {
+      "cons": "The pricing got expensive at renewal and support took days to respond.",
+      "marketSegment": "Mid-market",
+      "productName": "Acme CRM",
+      "pros": "The Salesforce integration is useful.",
+      "rating": 2,
+      "reviewDate": "2026-05-01",
+      "reviewUrl": "https://www.g2.com/products/acme-crm/reviews/sample-1",
+      "title": "Good CRM, hard renewal"
+    },
+    {
+      "cons": "Reporting exports could be more flexible.",
+      "marketSegment": "Small business",
+      "productName": "RivalDesk",
+      "pros": "The API integration is easy and reliable. Setup was simple for our admins.",
+      "rating": 5,
+      "reviewDate": "2026-05-02",
+      "reviewUrl": "https://www.g2.com/products/rivaldesk/reviews/sample-2",
+      "title": "Easy for our revenue team"
+    }
+  ]
+}

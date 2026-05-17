@@ -1,0 +1,19 @@
+{
+  "defaultCategory": "electronics",
+  "failOnInvalidRecord": false,
+  "maxSuppliers": 2,
+  "suppliers": [
+    {
+      "country": "Taiwan",
+      "description": "ISO certified electronics manufacturer with export shipments and custom assembly capacity.",
+      "shipmentCount": 120,
+      "supplierName": "Pacific Components"
+    },
+    {
+      "country": "Unknown",
+      "description": "Unverified supplier with quality issue complaints and delayed shipments.",
+      "rating": 2.5,
+      "supplierName": "Unknown Plastics"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "defaultCompetitor": "Acme CRM",
+  "failOnInvalidRecord": false,
+  "includeRawReview": true,
+  "maxReviews": 2,
+  "productCategory": "CRM",
+  "reviews": [
+    {
+      "competitorName": "Acme CRM",
+      "date": "2026-05-01",
+      "rating": 2,
+      "source": "Trustpilot",
+      "text": "The pricing got expensive at renewal and support took days to respond."
+    },
+    {
+      "competitorName": "RivalDesk",
+      "date": "2026-05-02",
+      "rating": 5,
+      "source": "G2",
+      "text": "The API integration is easy and reliable. Setup was simple for our admins."
+    }
+  ]
+}

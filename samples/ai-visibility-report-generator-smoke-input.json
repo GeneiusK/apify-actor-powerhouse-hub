@@ -1,0 +1,32 @@
+{
+  "brandName": "Northstar CRM",
+  "maxChecks": 10,
+  "reportPeriod": "May 2026",
+  "visibilityChecks": [
+    {
+      "brandDomainMentioned": false,
+      "brandMentioned": false,
+      "competitorsMentioned": [
+        "HubSpot",
+        "Salesforce"
+      ],
+      "modelId": "openrouter/auto",
+      "query": "best CRM for B2B SaaS teams",
+      "recommendation": "Publish comparison and alternatives content.",
+      "status": "succeeded",
+      "visibilityScore": 5
+    },
+    {
+      "brandDomainMentioned": false,
+      "brandMentioned": true,
+      "competitorsMentioned": [
+        "HubSpot"
+      ],
+      "modelId": "openrouter/auto",
+      "query": "HubSpot alternatives for product-led sales teams",
+      "recommendation": "Strengthen canonical domain citations and publish a direct alternatives page.",
+      "status": "succeeded",
+      "visibilityScore": 55
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "businessName": "Northstar Dental",
+  "failOnInvalidRecord": false,
+  "includeRawReview": true,
+  "maxReviews": 2,
+  "reviews": [
+    {
+      "authorName": "Example Customer",
+      "date": "2026-05-01",
+      "rating": 1,
+      "text": "The staff was rude and the wait was terrible. I waited 45 minutes past my appointment."
+    },
+    {
+      "authorName": "Example Customer 2",
+      "date": "2026-05-02",
+      "rating": 5,
+      "text": "Excellent service, clean office, and the hygienist was friendly and fast."
+    }
+  ],
+  "sourceName": "Google Maps"
+}

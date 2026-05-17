@@ -1,0 +1,21 @@
+{
+  "failOnInvalidRecord": false,
+  "includeRawReview": true,
+  "maxReviews": 2,
+  "productName": "Northstar Standing Desk",
+  "reviews": [
+    {
+      "authorName": "Example Customer",
+      "date": "2026-05-01",
+      "rating": 1,
+      "text": "The desktop cracked after two weeks and the replacement process was confusing. Packaging looked damaged on arrival."
+    },
+    {
+      "authorName": "Example Customer 2",
+      "date": "2026-05-02",
+      "rating": 5,
+      "text": "Sturdy desk, easy assembly, and the size fits my office perfectly."
+    }
+  ],
+  "sourceName": "Amazon"
+}

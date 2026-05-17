@@ -1,0 +1,19 @@
+{
+  "defaultCompany": "Northstar CRM",
+  "failOnInvalidRecord": false,
+  "jobs": [
+    {
+      "companyName": "Northstar CRM",
+      "description": "Help us scale revenue in a new region.",
+      "location": "Remote",
+      "title": "Senior Account Executive"
+    },
+    {
+      "companyName": "Northstar CRM",
+      "description": "Build platform APIs for customer data sync.",
+      "location": "Austin, TX",
+      "title": "Backend Software Engineer"
+    }
+  ],
+  "maxJobs": 2
+}
