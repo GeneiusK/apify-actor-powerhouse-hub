@@ -57,6 +57,8 @@ Public workflow hub for Apify Actors that turn recurring business data into buye
 - [Capterra Review Battlecard Monitor](https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/capterra-review-battlecard-monitor.html) - Review intelligence; built for Product marketing, sales enablement, competitive intelligence teams, agencies.
 - [Local Review Intelligence Monitor](https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/local-review-intelligence-monitor.html) - Review intelligence; built for Local SEO agencies, reputation managers, franchises, multi-location operators.
 - [B2B Competitor Review Battlecard Monitor](https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/b2b-competitor-review-battlecard-monitor.html) - Review intelligence; built for B2B SaaS product marketing, sales enablement, RevOps, agencies.
+- [Supplier Intelligence Monitor](https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/supplier-intelligence-monitor.html) - Supplier intelligence; built for Procurement teams, importers, Amazon sellers, industrial sales teams, sourcing agencies.
+- [Public Hiring Signal Monitor](https://geneiusk.github.io/apify-actor-powerhouse-hub/actors/public-hiring-signal-monitor.html) - Hiring signals; built for Sales teams, RevOps, recruiters, agencies, ABM teams.
 
 ## Comparison Pages
 
