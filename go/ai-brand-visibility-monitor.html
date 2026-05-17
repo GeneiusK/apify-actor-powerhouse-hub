@@ -21,8 +21,12 @@
         <h2>Copy the sample before opening Apify.</h2>
         <p>Paste this public-safe input into the Store run form, keep the first run small, and inspect the output fields before connecting a larger dataset.</p>
         <p><a class="button" href="../samples/ai-brand-visibility-monitor-smoke-input.json">Open sample JSON</a></p>
+        <div class="button-row">
+          <button class="button primary" type="button" data-copy-ready-sample-button="true" data-copy-target="sample-input-json">Copy sample input</button>
+          <span class="copy-status" data-copy-status aria-live="polite"></span>
+        </div>
       </div>
-      <pre class="code-block"><code>{
+      <pre class="code-block"><code id="sample-input-json">{
   "brandAliases": [
     "Apify Actors"
   ],
@@ -48,5 +52,26 @@
 }</code></pre>
     </section>
   </main>
+  <script>
+    (() => {
+      const button = document.querySelector("[data-copy-ready-sample-button]");
+      const status = document.querySelector("[data-copy-status]");
+      if (!button || !status) return;
+      button.addEventListener("click", async () => {
+        const target = document.getElementById(button.dataset.copyTarget || "");
+        const sample = target ? target.textContent.trim() : "";
+        if (!sample) {
+          status.textContent = "Open the sample JSON link and copy it manually.";
+          return;
+        }
+        try {
+          await navigator.clipboard.writeText(sample + "\n");
+          status.textContent = "Copied. Paste it into the Apify input form, then start the run.";
+        } catch (_error) {
+          status.textContent = "Select the sample JSON and copy it manually.";
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

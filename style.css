@@ -114,8 +114,12 @@ p {
   min-height: 44px;
   padding: 0 18px;
   border: 1px solid var(--line);
+  border-radius: 0;
   color: var(--text);
+  background: transparent;
+  font: inherit;
   text-decoration: none;
+  cursor: pointer;
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
 }
 
@@ -129,6 +133,19 @@ p {
 .button:hover {
   transform: translateY(-2px);
   border-color: var(--accent);
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.copy-status {
+  min-height: 22px;
+  color: var(--accent-2);
+  font-size: 14px;
 }
 
 .visual-plane {
