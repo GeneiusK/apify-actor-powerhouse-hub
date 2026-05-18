@@ -68,6 +68,97 @@
     },
     {
       "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html",
+      "summary": "Monitor AI answer visibility, competitor mentions, citations, and report gaps.",
+      "title": "AI visibility workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-monitor-demo.html",
+      "summary": "First-run path for collecting brand-query-model visibility checks.",
+      "title": "AI Brand Monitor demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-monitor-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-demo.html",
+      "summary": "First-run sample for turning visibility checks into a client-ready report.",
+      "title": "AI visibility report demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-sample.html",
+      "summary": "Rendered sample report from the same input used by the AI visibility report demo.",
+      "title": "AI visibility sample report",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-sample.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-intelligence.html",
+      "summary": "Turn review exports into themes, response queues, proof quotes, and battlecard snippets.",
+      "title": "Review intelligence workflow",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/review-intelligence.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-tutorial.html",
+      "summary": "First-run path for local review analysis.",
+      "title": "Google Maps review tutorial",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-tutorial.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html",
+      "summary": "First-run path for reputation review analysis.",
+      "title": "Trustpilot review tutorial",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html",
+      "summary": "First-run path for marketplace review analysis.",
+      "title": "Amazon review tutorial",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html",
+      "summary": "First-run path for B2B review battlecards.",
+      "title": "G2 review battlecard demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-battlecard-demo.html",
+      "summary": "First-run path for mixed B2B competitor review battlecards.",
+      "title": "B2B competitor battlecard demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-battlecard-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-demo.html",
+      "summary": "First-run path for Capterra competitor review battlecards.",
+      "title": "Capterra review battlecard demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html",
+      "summary": "First-run path for turning supplier records into sourcing scores and actions.",
+      "title": "Supplier Intelligence demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
+      "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-demo.html",
+      "summary": "First-run path for turning public job records into account-priority signals.",
+      "title": "Public Hiring Signal demo",
+      "url": "https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-demo.html"
+    },
+    {
+      "date_published": "2026-05-17T00:00:00Z",
       "id": "https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html",
       "summary": "A first-run workflow for SEO and GEO agencies that need repeatable AI visibility scorecards, competitor mentions, and client-ready reporting.",
       "title": "GEO Client Reporting Workflow",

@@ -69,6 +69,97 @@
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI visibility workflow</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility.html</guid>
+      <description>Monitor AI answer visibility, competitor mentions, citations, and report gaps.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Brand Monitor demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-monitor-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-brand-monitor-demo.html</guid>
+      <description>First-run path for collecting brand-query-model visibility checks.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI visibility report demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-demo.html</guid>
+      <description>First-run sample for turning visibility checks into a client-ready report.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI visibility sample report</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-sample.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/ai-visibility-report-sample.html</guid>
+      <description>Rendered sample report from the same input used by the AI visibility report demo.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Review intelligence workflow</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/review-intelligence.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/review-intelligence.html</guid>
+      <description>Turn review exports into themes, response queues, proof quotes, and battlecard snippets.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google Maps review tutorial</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-tutorial.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/google-maps-review-tutorial.html</guid>
+      <description>First-run path for local review analysis.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Trustpilot review tutorial</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/trustpilot-review-tutorial.html</guid>
+      <description>First-run path for reputation review analysis.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon review tutorial</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/amazon-review-tutorial.html</guid>
+      <description>First-run path for marketplace review analysis.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>G2 review battlecard demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/g2-review-battlecard-demo.html</guid>
+      <description>First-run path for B2B review battlecards.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>B2B competitor battlecard demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-battlecard-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/b2b-competitor-battlecard-demo.html</guid>
+      <description>First-run path for mixed B2B competitor review battlecards.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Capterra review battlecard demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/capterra-review-battlecard-demo.html</guid>
+      <description>First-run path for Capterra competitor review battlecards.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Supplier Intelligence demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/supplier-intelligence-demo.html</guid>
+      <description>First-run path for turning supplier records into sourcing scores and actions.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Public Hiring Signal demo</title>
+      <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-demo.html</link>
+      <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/public-hiring-signal-demo.html</guid>
+      <description>First-run path for turning public job records into account-priority signals.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GEO Client Reporting Workflow</title>
       <link>https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html</link>
       <guid>https://geneiusk.github.io/apify-actor-powerhouse-hub/geo-client-reporting.html</guid>
