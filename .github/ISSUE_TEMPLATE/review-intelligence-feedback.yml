@@ -14,7 +14,7 @@ body:
     attributes:
       label: Request type
       options:
-        - Need a runnable sample for my workflow
+        - Need a safer first-run sample
         - Need a safer sample input
         - First run was unclear
         - Need a workflow variant
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: workflow
     attributes:
-      label: What recurring job should this Actor help you finish?
+      label: What workflow would a safe sample run need to prove?
       description: Describe the public-safe workflow you want this Actor family to support.
       placeholder: Weekly report, action queue, shortlist, battlecard, or monitoring job.
     validations:
@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: first-run-friction
     attributes:
-      label: What output, sample input, or setup step is missing before you would try it?
+      label: What public input or output would make you comfortable trying it?
       description: What made the sample, setup, output, or handoff unclear?
       placeholder: Keep examples public-safe and omit private records.
     validations:
